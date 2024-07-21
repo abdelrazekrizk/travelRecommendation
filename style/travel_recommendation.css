@@ -1,0 +1,109 @@
+/* travel_recommendation.css */
+
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+nav {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+/* Navigation styles (optional) */
+nav ul {
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc; /* Add border for search input */
+  border-radius: 3px; /* Add rounded corners */
+}
+
+nav button {
+  padding: 5px 10px;
+  border: 1px solid #ccc; /* Add border for buttons */
+  background-color: #eee; /* Set button background color */
+  border-radius: 3px; /* Add rounded corners */
+  cursor: pointer; /* Indicate clickable buttons */
+}
+
+/* Home section styles */
+.home {
+  position: relative; /* Enable positioning for elements */
+  padding: 50px 0;
+}
+
+.home img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute; /* Make image overlap content */
+  top: 0; /* Position to the top */
+  left: 0; /* Position to the left */
+  z-index: -1; /* Place the image behind the content */
+}
+
+.intro {
+  text-align: center; /* Center intro content horizontally */
+  position: relative; /* Enable positioning for intro content */
+  z-index: 1; /* Place intro content on top of the image */
+  max-width: 500px; /* Limit intro content width */
+  margin: 0 auto; /* Center intro content horizontally */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+}
+
+.social-media {
+  position: absolute; /* Position social media icons absolutely */
+  bottom: 20px; /* Position at the bottom of the section */
+  left: 20px; /* Position to the left */
+  z-index: 1; /* Place social media icons on top of the image */
+}
+
+.social-media a {
+  color: #ccc; /* Set social media icons color */
+  margin: 0 5px; /* Add some space between icons */
+}
+
+.social-media a:hover {
+  color: #000; /* Change color on hover */
+}

@@ -1,0 +1,81 @@
+/* Contact_Us.css */
+
+/* General styles */
+body {
+  margin: 0; /* Remove default margin for better control */
+  font-family: Arial, sans-serif; /* Set a clean, modern font */
+}
+
+header {
+  background-color: #fff; /* Set header background color */
+  padding: 20px 0; /* Add some top and bottom padding */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; /* Remove default margins for headings */
+}
+
+a {
+  color: #333; /* Set link color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+  color: #000; /* Change link color on hover */
+}
+
+nav {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+nav ul {
+  list-style: none; /* Remove default bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+nav li {
+  display: inline-block; /* Make navigation links inline-block */
+  margin: 0 15px; /* Add some space between links */
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Contact Us section styles */
+.contact-us {
+  padding: 50px 0;
+  position: relative; /* Enable positioning for the form */
+}
+
+.contact-us img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute; /* Make the image overlap content */
+  top: 0; /* Position to the top */
+  left: 0; /* Position to the left */
+  z-index: -1; /* Place the image behind the form content */
+}
+
+.contact-us form {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 20px;
+  max-width: 500px; /* Limit form width */
+  margin: 0 auto; /* Center the form horizontally */
+  position: relative; /* Enable positioning for form elements */
+  z-index: 1; /* Place the form content on top of the image */
+}
+
+.contact-us label {
+  display: block; /* Display labels on separate lines */
+  margin-bottom: 5px; /* Add some space below labels */
+}
